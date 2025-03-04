@@ -21,10 +21,17 @@ This project enables efficient processing and retrieval of PDF document content 
 - Generated embeddings and associated metadata (tags, text, etc.) are stored in **Pinecone**.
 - Pinecone allows for quick retrieval of document chunks based on similarity searches.
 
+### 5. **Slide Generation**
+- Users provide titles and subtitles for slides.
+- The system retrieves relevant content from Pinecone.
+- Titles and associated content are automatically added to the slides.
+
 ## Key Benefits
 - **Efficient Document Processing**: Breaks down large PDFs into manageable sections.
 - **Enhanced Searchability**: Tags and embeddings enable semantic search.
+- **Automated Slide Creation**: Generates slides with retrieved content.
 - **Scalable Storage**: Uses Pinecone for fast and efficient retrieval.
 
 ## Conclusion
-This project provides an end-to-end pipeline for structuring, processing, and retrieving PDF content efficiently using LLMs, embeddings, and vector databases.
+This project provides an end-to-end pipeline for structuring, processing, retrieving, and presenting PDF content efficiently using LLMs, embeddings, and vector databases.
+
