@@ -1,7 +1,7 @@
 # PDF Chunking and Retrieval
 
 ## Overview
-This project enables efficient processing and retrieval of PDF document content by breaking it into smaller sections, generating embeddings, and storing them in Pinecone for fast similarity-based searches.
+This project enables efficient processing and retrieval of PDF document content by breaking it into smaller sections, generating embeddings, and storing them in Pinecone for fast similarity-based searches. The LLM then retrieves relevant data and generates structured slides automatically based on the user input.
 
 ## Process Workflow
 
